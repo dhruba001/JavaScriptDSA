@@ -1,2 +1,2 @@
 # JavaScriptDSA
-All my codes from namaste dsa course
+All my codes from namaste dsa course and leetcode
