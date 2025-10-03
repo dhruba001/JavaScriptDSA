@@ -3,13 +3,12 @@
 
 let arr = [4, 2, 0, 10, 8, 30];
 
-function searchElement(arr, num) {
+const searchArray = function (arr, num) {
   for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === num) {
-      return console.log("position is : " + i);
-    }
+    if (arr[i] === num) return `index = ${i}`;
   }
-  return console.log(-1);
-}
+  return -1;
+};
 
-searchElement(arr, 31);
+const res = searchArray(arr, 87);
+console.log(res);
